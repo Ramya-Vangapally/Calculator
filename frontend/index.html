@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Calculator</h2>
+
+  <input id="num1" type="number" placeholder="First number">
+  <input id="num2" type="number" placeholder="Second number">
+
+  <select id="operator">
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+
+  <button onclick="calculate()">Calculate</button>
+  <p id="result">Result:</p>
+</div>
+
+<script src="api.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
